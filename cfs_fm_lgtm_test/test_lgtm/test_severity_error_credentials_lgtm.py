@@ -1,6 +1,7 @@
 import hashlib
 import binascii
 
+CONFIG_FILE = 'passwords.json'
 
 def redirect(args):
     pass
