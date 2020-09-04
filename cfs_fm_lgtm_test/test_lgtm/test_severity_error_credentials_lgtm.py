@@ -1,6 +1,10 @@
 import hashlib
 import binascii
 
+
+def redirect(args):
+    pass
+
 def test_credentials_severity_error_lgtm(request):
     password = request.GET["password"]
     # BAD: 
