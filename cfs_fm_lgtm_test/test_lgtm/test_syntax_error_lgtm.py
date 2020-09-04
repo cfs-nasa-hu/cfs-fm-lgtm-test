@@ -4,7 +4,7 @@
 def test_syntax_error_lgtm():
   while True:
     try:
-      print 'Failure'
+      print('Failure')
     except SyntaxError as e:
       print(e)
   
