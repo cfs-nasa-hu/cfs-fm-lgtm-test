@@ -19,7 +19,7 @@ CONFIG_FILE = 'passwords.json'
 def redirect(args):
     pass
 
-def load_from_config(args, **kwargs):
+def load_from_config(pass_key, config_file):
     pass
 
 def test_credentials_severity_error_lgtm(request):
