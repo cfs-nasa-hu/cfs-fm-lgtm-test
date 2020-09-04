@@ -2,10 +2,10 @@ import hashlib
 import binascii
 
 def test_credentials_severity_error_lgtm(request):
-    pass = request.GET["password"]
+    password = request.GET["password"]
     # BAD: 
     # Authentication made by comparison to string literal
-    if pass == "mypass":
+    if password == "mypass":
         redirect("login")
 
 
