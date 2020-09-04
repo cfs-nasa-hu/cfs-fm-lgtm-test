@@ -1,5 +1,5 @@
 import os
-import system
+import sys
 import socket
 
 
